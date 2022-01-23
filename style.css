@@ -224,6 +224,68 @@
 }
 
 
+/* ===== courses page ===== */
+.main{
+    margin-top: 7rem;
+}
+.breadcrumb{
+    background: linear-gradient(40deg, #c31432,#240b36);
+}
+
+/* ===== trainers page ===== */
+.trainers-page{
+    background-color: #fff !important;
+}
+
+/* ===== pricing page ===== */
+.box .card{
+    position: relative;
+    overflow: hidden;
+}
+.box .card .advanced{
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    top: 20px;
+    right: -68px;
+    background-color: var(--color-red);
+    opacity: .8;
+    transform: rotate(45deg);
+}
+.box .card-body h4{
+    color: var(--color-red);
+    font-weight: bold;
+}
+.box .card-body ul li{
+    font-size: .9rem;
+}
+.box .card-footer a{
+    border-radius: 20px;
+    background-color: var(--color-red);
+    font-size: .9rem;
+}
+.box .card-header.featured{
+    background-color: var(--color-red);
+}
+
+/* ===== contact page ===== */
+.info-contact .icon-contact{
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background-color: var(--color-red);
+    color: #fff;
+    font-size: 1.2rem;
+}
+.submit-form{
+    border-radius: 20px;
+    background-color: var(--color-red) !important;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width:991.98px) {
     .navbar-nav .nav-link::after{
@@ -238,6 +300,25 @@
     }
     .desc-hero{
        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .breadcrumb h2{
+        font-size: 1.4rem;
+    }
+    .contact-content h5{
+        font-size: 1rem;
+    }
+    .contact-content p{
+        font-size: .9rem;
+    }
+    input::placeholder,
+    textarea::placeholder{
+        font-size: .9rem;
+    }
+    .footer-content p{
+        font-size: .9rem;
     }
 }
 
